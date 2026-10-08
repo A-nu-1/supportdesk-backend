@@ -4,6 +4,23 @@ Backend REST API for **SupportDesk**, an internal IT support ticket management s
 
 The application models a typical company support workflow where employees raise IT issues, support agents manage assigned tickets, and administrators manage users and ticket categories.
 
+
+## 🌐 Live Application
+
+[Open SupportDesk](https://supportdesk-frontend-fawn.vercel.app/)
+
+### API Documentation
+
+[Open Swagger UI](https://supportdesk-backend-3rrv.onrender.com/swagger-ui/index.html)
+
+The production application uses:
+
+- **Frontend:** Angular on Vercel
+- **Backend:** Spring Boot on Render
+- **Database:** PostgreSQL on Neon
+
+> **Note:** The backend runs on a free Render instance and may take up to a minute to wake up after a period of inactivity. If the application or Swagger UI is slow to load initially, please allow a short time for the backend to start and try again.
+
 ## Tech Stack
 
 - Java 21
